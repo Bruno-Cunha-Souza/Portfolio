@@ -7,7 +7,7 @@ const SectionContact = () => {
     const [isEmailHovered, setIsEmailHovered] = useState(false);
 
 	const handleLinkedInClick = () => {
-        window.location.href = 'https://www.linkedin.com/in/bruno-souza-913984189/';
+        window.open('https://www.linkedin.com/in/bruno-souza-913984189/', '_blank');
     };
 
 	const handleEmailClick = () => {

@@ -10,7 +10,7 @@ import { TbCertificate } from "react-icons/tb";
 
 const SectionKnow = () => {
 	const handleCertificate = () => {
-        window.location.href = 'https://www.linkedin.com/in/bruno-souza-913984189/details/certifications/';
+		window.open('https://www.linkedin.com/in/bruno-souza-913984189/details/certifications/', '_blank');
     };
 	return (
 		<StyledSectionKnow className="center_content flex flex-col " id="know">

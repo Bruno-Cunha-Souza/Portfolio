@@ -10,11 +10,11 @@ const SectionContentInit = () => {
     };
 
     const handleLinkedInClick = () => {
-        window.location.href = 'https://www.linkedin.com/in/bruno-souza-913984189/';
+		window.open('https://www.linkedin.com/in/bruno-souza-913984189/', '_blank');
     };
 
     const handleGithubClick = () => {
-        window.location.href = 'https://github.com/Bruno-Cunha-Souza';
+		window.open('https://github.com/Bruno-Cunha-Souza', '_blank');
     };
 
     return (
