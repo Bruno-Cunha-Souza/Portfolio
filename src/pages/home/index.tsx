@@ -10,6 +10,7 @@ import SectionContentInit from "../../components/SectionContent/SectionContentIn
 import SectionAbout from "../../components/SectionContent/SectionAbout";
 import SectionKnow from "../../components/SectionContent/SectionKnow";
 import SectionContact from "../../components/SectionContent/SectionContact";
+import SectionProjects from "../../components/SectionContent/SectionProjects";
 
 const Home = () => {
 	return (
@@ -19,6 +20,7 @@ const Home = () => {
 				<SectionContentInit />
 				<SectionAbout />
 				<SectionKnow />
+				<SectionProjects />
 				<SectionContact />
 			</Main>
 			<Footer><ToogleTheme/></Footer>
